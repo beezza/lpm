@@ -1,2 +1,2 @@
-# lpm - Linux Package Manager  
+# lpm - Linux Package Manager
 Linux Package Manager

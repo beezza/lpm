@@ -1,0 +1,15 @@
+{
+  "name": "lpm",
+  "version": "1.0.0",
+  "main": "",
+  "license": "MIT",
+  "devDependencies": {
+    "pkg": "^5.5.2"
+  },
+  "scripts": {
+    "build": "cd '/media/beezza/Share Drive/DEVELOP/Software/lpm/build' && pkg -t node14-linux '/media/beezza/Share Drive/DEVELOP/Software/lpm/src/main/lpm.js' && sudo cp '/media/beezza/Share Drive/DEVELOP/Software/lpm/build/lpm' /usr/local/sbin/"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
