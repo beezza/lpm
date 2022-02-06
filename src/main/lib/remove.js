@@ -11,7 +11,7 @@ function uninstall(ModuleName) {
             console.log(ModuleName + " is not installed")
             process.exit(0)
         }
-        console.log(ModuleName + " was uninstalled successfully")
+        console.log(`"${ModuleName}" was uninstalled successfully`)
     }catch (e) {
         console.log("returned an error:\n" + e.stack)
         process.exit(1)

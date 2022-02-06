@@ -7,7 +7,7 @@
     "pkg": "^5.5.2"
   },
   "scripts": {
-    "build": "cd '/media/beezza/Share Drive/DEVELOP/Software/lpm/build' && pkg -t node14-linux '/media/beezza/Share Drive/DEVELOP/Software/lpm/src/main/lpm.js' && sudo cp '/media/beezza/Share Drive/DEVELOP/Software/lpm/build/lpm' /usr/local/sbin/"
+    "build": "cd '/home/beezza/デスクトップ/SOURCES/DEVELOP/Software/lpm/build' && pkg -t node14-linux '/home/beezza/デスクトップ/SOURCES/DEVELOP/Software/lpm/src/main/lpm.js' && sudo cp '/home/beezza/デスクトップ/SOURCES/DEVELOP/Software/lpm/build/lpm' /usr/local/sbin/"
   },
   "dependencies": {
     "request": "^2.88.2"

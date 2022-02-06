@@ -4,7 +4,6 @@ const lpm = require("./lpm.json")
 
 const { download } = require("./lib/download")
 const { remove } = require("./lib/remove")
-const { loadconfig } = require("./lib/loadconfig")
 const { list } = require("./lib/list")
 
 const HOME = process.env.HOME
@@ -12,6 +11,7 @@ const HOME = process.env.HOME
 if (process.env.LPM_HOME === undefined) {
     fs.appendFileSync(HOME + "/.bashrc", "\nexport PATH=$PATH:$HOME/.lpm")
     fs.appendFileSync(HOME + "/.bashrc", "\nexport LPM_HOME=$HOME/.lpm")
+    fs.mkdirSync(HOME + "/.lpm")
     console.log("LPM requires restart command line\n")
 }
 
